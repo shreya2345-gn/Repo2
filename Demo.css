@@ -1,1 +1,70 @@
-hiiiii
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Details</title>
+
+    <style>
+        body, h1, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2a5d84;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            text-align: center;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            font-size: 1.1em;
+        }
+
+        li {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        li:hover {
+            background-color: #d1e7f7;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Family Details</h1>
+    <p>My name is John. I have a lovely family. Here are some details:</p>
+
+    <ul>
+        <li>My wife’s name is Sarah. She is a teacher.</li>
+        <li>We have two children: Emily, who is 8 years old, and Jake, who is 5.</li>
+        <li>We love spending time together on weekends, going to the park, and having family dinners.</li>
+    </ul>
+
+</body>
+</html>
+
